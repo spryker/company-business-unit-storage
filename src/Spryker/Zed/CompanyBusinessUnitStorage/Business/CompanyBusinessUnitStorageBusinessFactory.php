@@ -16,9 +16,6 @@ use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
  */
 class CompanyBusinessUnitStorageBusinessFactory extends AbstractBusinessFactory
 {
-    /**
-     * @return \Spryker\Zed\CompanyBusinessUnitStorage\Business\CompanyUserStorage\CompanyUserStorageExpanderInterface
-     */
     public function createCompanyUserStorageExpander(): CompanyUserStorageExpanderInterface
     {
         return new CompanyUserStorageExpander();

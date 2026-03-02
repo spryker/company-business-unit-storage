@@ -12,12 +12,6 @@ use Generated\Shared\Transfer\CompanyUserTransfer;
 
 interface CompanyUserStorageExpanderInterface
 {
-    /**
-     * @param \Generated\Shared\Transfer\CompanyUserStorageTransfer $companyUserStorageTransfer
-     * @param \Generated\Shared\Transfer\CompanyUserTransfer $companyUserTransfer
-     *
-     * @return \Generated\Shared\Transfer\CompanyUserStorageTransfer
-     */
     public function expandWithCompanyBusinessUnitId(
         CompanyUserStorageTransfer $companyUserStorageTransfer,
         CompanyUserTransfer $companyUserTransfer
